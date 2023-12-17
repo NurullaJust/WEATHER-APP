@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #343d4b;
+}
+.bg {
+  background-image: url(assets/Rectangle\ 2.png);
+  background-size: cover;
+  width: 493px;
+  height: 666px;
+  background-repeat: no-repeat;
+}
+.box {
+  width: 520px;
+  height: 623px;
+  background-color: #222831;
+  border-radius: 25px;
+  margin-top: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.container {
+  display: flex;
+  padding: 188px 227px 170px 230px;
+}
+#weatherInfo h2 {
+  color: white;
+  font-size: 100px;
+}
+#weatherInfo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.p-container {
+  margin-top: 90%;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+.idk {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.image {
+  padding-top: 30%;
+  margin-left: 25%;
+}
+.image img:nth-child(1) {
+  margin-right: -10px;
+}
+.btn {
+  width: 415px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+    91deg,
+    rgba(144, 217, 224, 0.9) 0.2%,
+    rgba(84, 96, 230, 0.9) 100%
+  );
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.main-input {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+label {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cityInput {
+  background: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 12px;
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.first-btn {
+  width: 415px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+    91deg,
+    rgba(144, 217, 224, 0.9) 0.2%,
+    rgba(84, 96, 230, 0.9) 100%
+  );
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-left: 30%;
+}
